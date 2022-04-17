@@ -1,0 +1,72 @@
+1.	Which of the following methods do we use to find the best fit line for data in Linear Regression?
+A)	Least Square Error	B) Maximum Likelihood
+C) Logarithmic Loss	D) Both A and B
+ANS:-A)	Least Square Error 
+2.	Which of the following statement is true about outliers in linear regression?
+A)	Linear regression is sensitive to outliers	B) linear regression is not sensitive to outliers
+C) Can’t say	D) none of these
+A)	Linear regression is sensitive to outliers
+3.	A line falls from left to right if a slope is	?
+A)	Positive	B) Negative
+C) Zero	D) Undefined
+B) Negative
+4.	Which of the following will have symmetric relation between dependent variable and independent variable?
+A)	Regression	B) Correlation
+C) Both of them	D) None of these
+A)	Regression
+5.	Which of the following is the reason for over fitting condition?
+A)	High bias and high variance	B) Low bias and low variance
+C) Low bias and high variance	D) none of these
+A)	High bias and high variance
+6.	If output involves label then that model is called as:
+A)	Descriptive model	B) Predictive modal
+C) Reinforcement learning	D) All of the above
+A)	Descriptive model
+7.	Lasso and Ridge regression techniques belong to	?
+A)	Cross validation	B) Removing outliers
+C) SMOTE	D) Regularization
+ans:Removing outliers
+8.	To overcome with imbalance dataset which technique can be used?
+A)	Cross validation	B) Regularization
+C) Kernel	D) SMOTE
+A)	Cross validation
+9.	The AUC Receiver Operator Characteristic (AUCROC) curve is an evaluation metric for binary classification problems. It uses	to make graph?
+A)	TPR and FPR	B) Sensitivity and precision
+C) Sensitivity and Specificity	D) Recall and precision
+A)	TPR and FPR
+10.	In AUC Receiver Operator Characteristic (AUCROC) curve for the better model area under the curve should be less.
+A)	True	B) False
+A)	True
+11.	Pick the feature extraction from below
+A)	Construction bag of words from a email
+B)	Apply PCA to project high dimensional data
+C)	Removing stop words
+D)	Forward selection
+A)	Construction bag of words from a email
+12.	Which of the following is true about Normal Equation used to compute the coefficient of the Linear Regression?
+A)	We don’t have to choose the learning rate.
+B)	It becomes slow when number of features is very large.
+C)	We need to iterate.
+D)	It does not make use of dependent variable.
+ans:-1,2&3
+13.	Explain the term regularization?
+ans:=The word regularize means to make things regular or acceptable. This is exactly why we use it for. Regularizations are techniques used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting
+
+14.	Which particular algorithms are used for regularization
+Regularization is a technique used to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting. 
+The commonly used regularization techniques are : 
+ 
+
+1.L1 regularization
+2.L2 regularization
+3.Dropout regularization
+
+15.	Explain the term error present in linear regression equation.
+ans:-an econometric theory, the classical normal linear regression model (CNLRM) involves finding the best fitting linear model for observed data that shows the relationship between two variables.
+
+For example, let’s say you were running a study on the way the number of exams in a certain college affect the amount of red bull purchased from college vending machines. You could collect data which told you how many exams were given and how much red bull was purchased on a dozen or more days during the semester. This data can be plotted as a scatter plot, with exams (Ex) per given day on the x axis and red bull purchased (RB) per given day on the y axis. Then you would look for the line y = β0 + β1 x that best fit the data.
+
+error term
+Errors on a scatter plot.
+
+“Best fit” here means that the error term, the distance from each point to the line, is minimized. Since the relationship between variables is probably not completely linear and because there are other factors outside the scope of our study (sales on red bull, sales on other caffeine drinks, difficult physics homework sets, etc.) the graph won’t actually go through all our data points. The distance between each point and the linear graph (shown as black arrows on the above graph) is our error term. So we can write our function as RB=β0 + β1 Ex + ε where β0 and β1 are constants and ε is an (non constant) error term.
