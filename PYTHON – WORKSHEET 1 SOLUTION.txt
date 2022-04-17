@@ -1,0 +1,59 @@
+1.	Which of the following operators is used to calculate remainder in a division?
+C) %
+2.2.	In python 2//3 is equal to?
+B) 0
+3.3.	In python, 6<<2 is equal to?
+C) 24
+4.4.	In python, 6&2 will give which of the following as output?
+A)	2
+5.	In python, 6|2 will give which of the following as output?
+D) 6
+6.	What does the finally keyword denotes in python?
+C)	the finally block will be executed no matter if the try block raises an error or not
+7.	What does raise keyword is used for in python?
+A)	It is used to raise an exception
+8.	Which of the following is a common use case of yield keyword in python?
+c)in defining a generator
+9.	Which of the following are the valid variable names?
+A)	_abc
+10.	Which of the following are the keywords in python?
+A)	yield
+11.	Write a python program to find the factorial of a number.
+ans:-num=int(input("Enter the number:"))
+Fact=1
+while  (num>0):
+    Fact=Fact*num
+    num=num-1
+print("the factorial of ",num,"is",Fact)
+12.	Write a python program to find whether a number is prime or composite
+ans:-number=int(input("Enter a natural number :"))
+if number<1:
+    print("number need to be greater than 1")
+elif number==1:
+    print(number,"is neigher prime nor composite")
+else:
+    for divisor in range(2,(number//2)+1):
+        if (number%divisor)==0:
+            print(number,"is a composite number")
+            break
+    else:
+        print(number,"is a prime number")
+        
+13.	Write a python program to check whether a given string is palindrome or not.
+ans:- a=input("Enter string:")
+b=a[-1::-1]
+if(a==b):
+    print("palindrome string")
+else:
+    print("Not palindrome string")
+    
+14.	Write a Python program to get the third side of right-angled triangle from two given sides.
+15.	Write a python program to print the frequency of each of the characters present in a given string.
+ans:-str1=input("Enter a string")
+d1=dict()
+for c in str1:
+    if c in d1:
+        d1[c]=d1[c]+1
+    else:
+         d1[c]=1
+print(d1)
